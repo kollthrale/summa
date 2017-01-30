@@ -2,20 +2,20 @@ class PostsController < ApplicationController
   before_action require: :models
 	before_action :find_post, except: [:index, :new, :create]
   def index
-  	@posts = post.all
+  	@posts = Post.all
     if params[:search]
       @posts = post.search(params[:search])
     else
-      @posts = post.all
+      @posts = Post.all
     end
   end
 
   def show
   end
 
-  def new
-  	@post = post.new
-  end
+  # def new
+  # 	@posts = post.new
+  # end
 
   def create
   	@post = post.new(post_params)

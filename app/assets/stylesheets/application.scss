@@ -13,10 +13,41 @@ nav {
 
 body {
   background-color: black;
+  height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px;
 }
 
-footer {
-  color: black;
+.content {
+    min-height: calc(100vh - 120px);
+  }
+
+// footer {
+//   position: absolute;
+//     bottom: -40px;
+//     width: 100%;
+//   // color: black;
+//   // height: 60px;
+// }
+
+.colasible-btn {
+	border-radius: 8px;
+	background-color:#B2B0AA;
+	border: 2px solid #666666;
+	color:525252;
+	padding: 5px;
+}
+.colasible-btn:hover {
+	background-color:#555555;
+	color:white;
+}
+.btn {
+  color: red;
+  background-color: grey;
 }
 // nav .brand-logo,
 // nav ul a {
