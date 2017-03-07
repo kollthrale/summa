@@ -1,20 +1,29 @@
 <h1>Meet Olivia</h1>
 
-<img class="materialboxed" width="450" src="https://gigaom.com/wp-content/uploads/sites/1/2012/09/robot-2.jpg">
+<img class="materialboxed" width="450" src="https://gigaom.com/wp-content/uploads/sites/1/2012/09/robot-2.jpg" style="padding-bottom: 300px;">
+
 
 
 <!-- <script>
 $ video.embed_html_with_width(1280)
 $ video = client.video_by("https://www.youtube.com/emb?v=QsbmrCtiEUU&feature=player_embedded")
 <script> -->
-
+<h4 class="truncate blue-text text-darken-2" color: blue;>This is an extremely long title that will be truncated</h4>
+<p class="blue-text text-darken-2">
+  A robot is a machine—especially one programmable by a computer—capable of carrying out a ....
+  Early descriptions of automata include the artificial doves of Archytas, the artificial birds of ...... The robot can be ten feet wide and thirty feet long and can hold hundreds of different kinds of medications and thousands of doses.
+</p>
 <!-- <script type="text/javascript" src="http://www.youtube.com/iframe_api"></script>
 <iframe id="myytplayer" type="text/html" width="440" height="300"
 src="http://www.youtube.com/embed/{YOUTUBE_ID}?enablejsapi=1"
 frameborder="0"></iframe> -->
-
-<iframe width="1280" height="750" src="//www.youtube.com/embed/voNBzuI7IJ4?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe> -->
-
-
-<%= link_to 'Post', posts_path, class: 'btn-small #eeeeee grey lighten-3' %>
-<%= link_to 'Home', root_path, class: 'btn-small #eeeeee grey lighten-3' %>
+<li style="padding-top: 200px"></li>
+<%= image_tag("second.jpeg", :alt => "rss feed", :height =>"300", :width => "420", :align=> "left") %>
+<%= image_tag("length.jpeg", :alt => "rss feed", :height =>"300", :width => "420", :align=> "right") %>
+<iframe width="880" height="750" align="right" src="//www.youtube.com/embed/voNBzuI7IJ4?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+<!-- <div class="video-container">
+<video data-src="http://s3.amazonaws.com/pamlicocapital.com/assets/video/pamlico_home_optimized_constant_framerate.mp4" data-src-type="video/mp4" id="pamlico-homepage-video" poster="http://www.pamlicocapital.com/assets/img/home/video-poster.jpg?v=1.07" preload="auto" data-setup="{}" webkit-playsinline="" loop="" src="http://s3.amazonaws.com/pamlicocapital.com/assets/video/pamlico_home_optimized_constant_framerate.mp4" style="width: 1443px;">
+</video> -->
+<%= link_to 'See Our CNC Machines', tech_posts_path, class: 'waves-effect waves-light btn left' %>
+<%= link_to 'See Our Feature Robots', feature_posts_path, class: 'waves-effect waves-light btn right' %>
+</div>

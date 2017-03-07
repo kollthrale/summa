@@ -5,6 +5,12 @@ h1 {
   color: green;
 }
 
+p {
+  text-indent: 50px;
+  text-decoration-color: blue;
+  color: white;
+  text-align: center;
+}
 
 nav {
   background-color: black;
@@ -26,13 +32,13 @@ body {
     min-height: calc(100vh - 120px);
   }
 
-// footer {
-//   position: absolute;
-//     bottom: -40px;
-//     width: 100%;
-//   // color: black;
-//   // height: 60px;
-// }
+footer {
+  position: absolute;
+    bottom: -40px;
+    width: 100%;
+  // color: black;
+  // height: 60px;
+}
 
 .colasible-btn {
 	border-radius: 8px;
@@ -48,6 +54,30 @@ body {
 .btn {
   color: red;
   background-color: grey;
+}
+.wrapper {
+    text-align: center;
+}
+
+
+.underline {
+	text-decoration: underline;
+}
+
+.collapsible-header:hover {
+	background-color:yellow;
+}
+
+.collapsible-header {
+   background-color: blue;
+}
+
+.collapsible-body{
+  background-color: blue;
+}
+.button {
+    position: absolute;
+    top: 50%;
 }
 // nav .brand-logo,
 // nav ul a {
@@ -99,5 +129,8 @@ body {
 // }
 //
 // background {
+
+
+
 //   color: black;
 // }
