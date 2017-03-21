@@ -1,0 +1,41 @@
+<h1>Prototyping</h1>
+
+
+
+<table>
+       <thead>
+         <tr>
+           <td style="text-align: left;">Small</td>
+           <td>Medium</td>
+           <td>Large</td>
+         </tr>
+         <tr>
+             <th data-field="id"><%= image_tag("logo.jpeg", :alt => "rss feed", :height =>"60", :width => "130", :align=> "left")%></th>
+             <th data-field="name"><%= image_tag("logo.jpeg", :alt => "rss feed", :height =>"60", :width => "130", :align=> "left")%></th>
+             <th data-field="price"><%= image_tag("logo.jpeg", :alt => "rss feed", :height =>"60", :width => "130", :align=> "left")%></th>
+         </tr>
+       </thead>
+
+       <tbody>
+         <tr>
+           <td>Feature 1</td>
+           <td>Feature 1</td>
+           <td>Feature 1</td>
+         </tr>
+         <tr>
+           <td>Feature 1</td>
+           <td>Feature 1</td>
+           <td>Feature 1</td>
+         </tr>
+         <tr>
+           <td>Feature 1</td>
+           <td>Feature 1</td>
+           <td>Feature 1</td>
+         </tr>
+         <tr>
+           <td><%= link_to 'Submit Order', prototyping_link_path, class: 'waves-effect waves-light btn ' %></td>
+           <td><%= link_to 'Submit Order', prototyping_link_path, class: 'waves-effect waves-light btn ' %></td>
+           <td><%= link_to 'Submit Order', prototyping_link_path, class: 'waves-effect waves-light btn ' %></td>
+         </tr>
+       </tbody>
+     </table>

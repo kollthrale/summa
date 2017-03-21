@@ -1,5 +1,5 @@
-<h1>Our CNC Manines</h1>
-<p>Find me in app/views/posts/index.html.erb</p>
+<h1 stlye="margin-top: 20px;">Meet The Family</h1>
+
 
 <script>
 $(document).ready(function(){
@@ -8,17 +8,17 @@ $(document).ready(function(){
 </script>
 
 
-<div class="parallax-container box-sizing: inherit; width: 100%;">
-    <div class="parallax box-sizing: inherit; width: 100%;"><img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg" style= "width: 1500px";></div>
+<div class="parallax-container box-sizing: inherit;" stlye="width: 100%; height: 100%;">
+    <div class="parallax box-sizing: inherit;"><img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg" style= "width: 1500px";></div>
   </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">Parallax</h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+  <div class="section ">
+    <div class="row container" style="background-color: black;">
+      <h2 class="header" stlye="color: black;">Parallax</h2>
+      <p class="grey-text text-darken-3 lighten-3" style="background-color: black;">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
     </div>
   </div>
   <div class="parallax-container">
-    <div class="parallax"><img src="https://static.pexels.com/photos/20974/pexels-photo.jpg"></div>
+    <div class="parallax"stlye="width: 100px; height: 100px;"><img src="https://static.pexels.com/photos/20974/pexels-photo.jpg"></div>
   </div>
 
 
@@ -26,4 +26,48 @@ $(document).ready(function(){
 
 
 
-<%= link_to 'Home', root_path, class: 'btn-small #eeeeee grey lighten-3' %>
+<li stlye='margin-top: 50px;'></li>
+<h1> customer bill rights </h1>
+<li stlye='margin-top: 50px;'></li>
+
+<div class='row center'>
+  <%= link_to 'Quality', tech_posts_path, class: 'waves-effect waves-light btn left' %>
+  <%= link_to 'Price', tech_posts_path, class: 'waves-effect waves-light btn center' %>
+  <%= link_to 'Service', new_post_path, class: 'waves-effect waves-light btn right' %>
+
+</div>
+<li stlye='margin-top: 100px;'></li>
+
+
+
+<h1 style='margin-bottom: 100px;'>Which Is Right For You</h1>
+
+<table>
+      <thead>
+        <tr>
+            <th data-field="id"><%= link_to 'View Options', prototyping_link_path, class: 'waves-effect waves-light btn ' %></th>
+            <th data-field="name"><%= link_to 'View Options', tech_posts_path, class: 'waves-effect waves-light btn ' %></th>
+            <th data-field="price"><%= link_to 'View Options', industrial_link_path, class: 'waves-effect waves-light btn ' %></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Prototyping</td>
+
+          <td>Production</td>
+          <td>Industrial</td>
+        </tr>
+        <tr>
+          <td>  </td>
+
+          <td>Jellybean</td>
+          <td>$3.76</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Lollipop</td>
+          <td>$7.00</td>
+        </tr>
+      </tbody>
+    </table>

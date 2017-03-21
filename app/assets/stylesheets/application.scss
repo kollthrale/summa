@@ -3,6 +3,14 @@
 
 h1 {
   color: green;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
 }
 
 p {
@@ -11,15 +19,27 @@ p {
   color: white;
   text-align: center;
 }
-
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+  color: white;
+}
 nav {
   background-color: black;
   color: green;
 }
+// .button-collapse {
+//   color: black;
+// }
 
+.side-nav {
+  color: white;
+  background-color: black;
+
+}
 body {
+  color: white;
   background-color: black;
   height: 100%;
+  text-decoration-color: white;
 }
 .wrapper {
     min-height: 100%;
@@ -30,6 +50,10 @@ body {
 
 .content {
     min-height: calc(100vh - 120px);
+  }
+
+  .slider {
+    width: 100%;
   }
 
 footer {
@@ -78,6 +102,54 @@ footer {
 .button {
     position: absolute;
     top: 50%;
+}
+
+.parallax-container {
+  // position: relative;
+  // position: sticky;
+  // position: static;
+  // height: 800px;
+  // width: 1200px;
+  // height: 400px;
+  // width: 200px;
+  min-height: 400px;
+  background: transparent;
+}
+
+
+
+// .category {
+// position:relative;
+// display: inline-block;
+// float:left;
+// padding:10px;
+// }
+
+// .category2 {
+// position:relative;
+// display: inline-block;
+// padding:10px;
+// }
+.category {
+position:relative;
+display: inline-block;
+float:right;
+margin-right:50%;
+padding:10px;
+}
+.category2 {
+position:relative;
+display: inline-block;
+float:right;
+margin-right:50%;
+padding:10px;
+}
+.category3 {
+position:relative;
+display: inline-block;
+float:right;
+margin-right:50%;
+padding:10px;
 }
 // nav .brand-logo,
 // nav ul a {
